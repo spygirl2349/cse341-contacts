@@ -1,0 +1,22 @@
+{
+  "name": "cse341-contacts",
+  "version": "1.0.0",
+  "description": "Contacts-CSE341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spygirl2349/cse341-contacts.git"
+  },
+  "author": "Annabelle R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spygirl2349/cse341-contacts/issues"
+  },
+  "homepage": "https://github.com/spygirl2349/cse341-contacts#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
