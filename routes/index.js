@@ -4,7 +4,8 @@ const controller = require('../controller/index');
 //     res.send('router testing');
 // });
 
-router.get('/contacts', controller.getAllCharacters);
+router.get('/contacts', controller.getAll);
+router.get('/contacts/:id', controller.getSingle);
 // router.use('/contacts', require('./contacts'));
 
 module.exports = router;
