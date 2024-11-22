@@ -9,5 +9,6 @@ router.get('/', (req, res) => {
 
 //go to '/contacts' and find routes in the contacts.js file
 router.use('/contacts', require('./contacts'));
+router.use('/api-docs', require('./swag-route'));
 
-module.exports = router;
+module.exports = router; 

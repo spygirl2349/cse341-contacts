@@ -9,4 +9,4 @@ router.put('/:id', controller.updateContact);
 router.delete('/:id', controller.deleteContact);
 
 
-module.exports = router;
+module.exports = router; 
