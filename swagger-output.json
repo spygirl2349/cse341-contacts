@@ -5,9 +5,9 @@
     "description": "This is the contacts api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-contacts-om4c.onrender.com/",
   "basePath": "/",
-  "schemes": ["http", "https"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
